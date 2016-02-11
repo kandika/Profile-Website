@@ -15,32 +15,22 @@
     	  <h1>Andrea Kovács</h1>
 	  </div>
     <div id=title2>
-    	<h2>ASPIRING UX/WEB DESIGNER & FRONT END DEVELOPER</h2>
+    	<h2>ASPIRING USER EXPERIENCE DESIGNER</h2>
 	</div>
 	<div class=p>
-    	<div id=p1>
-			<p>I live in Rotterdam, but I'm from the beautiful Hungary, Budapest. Previously I have worked in event management, but one day I decided to swtich and start studying something very different, very new: <span id=coding>coding</span>. I've been following different courses in tech. I already have experience with:
-		<span id=skills>Wireframing, Photoshop, HTML, CSS, JavaScript, JQuery</span> and <span id=skills>Jira.</span> </p>
-		<p>I want to start working in IT as soon as I can, even if it's a bottom line position. </p>
-		<p>I want to start, now!</p> 
-		</div>
-		<div id=p2>
-			<p> When I'm not behind my computer I'm sitting in <span id=dutch>Dutch lesson</span>. I am in love with languages, I guess. I speak Hungarian, English and French fluently, and the Dutch is approaching now quickly!</p>
-		</div>
-		<div id=p3>
-			<p>Second option if you don't find near my laptop is to look in the kitchen. Most probably I am <span id=cooking>cooking</span> something very healthy and very delicious.</p>
-		</div>
+			<p id=p1>I live in Rotterdam, but I'm from the beautiful Hungary, Budapest. Previously I have worked in event management, but one day I decided to swtich and start studying something very different, very new: <span id=coding>coding</span>. I've been following different courses in tech. I already have experience with:
+		<span id=skills>Wireframing, Photoshop, HTML, CSS</span>. I'm now busy with learning <span id=skills>JavaScript</span>. I want to start working in IT as soon as I can, I feel ready for it!</p>
+			<p id=p1> When I'm not behind my computer I'm sitting in Dutch lesson. I am in love with languages, I guess. I speak Hungarian, English and French fluently, and the Dutch is approaching now quickly. Second option if you don't find me near my laptop is to look in the kitchen. Most probably I am cooking something very healthy and very delicious.</p>
+			<p id=p1> I'm looking for interesting projects to work on, send me an email if you have any ideas/offers/questions!</p>
 	</div>
-	<div class=contact>
-		<button onclick="showContact()">Contact</button>
-		<script>
-		function showContact() {
-		    document.getelementById("email");
-		    document.getElementById("phone");
-		}
-		</script>
-		<p id=phone>+31 6 25 12 15 06</p>
-		<p id=email>contact@andreakovacs.nl</p>
+		<a href="#"><div id=contactbutton onClick="showContact(this)">contact me</div></a>
+
+<script>
+function showContact(obj) {
+    obj.innerHTML = "<A HREF=mailto:contact@andreakovacs.nl>contact@andreakovacs.nl</A>"
+}
+</script>
+		
 	</div>
 </div>
 </body>
